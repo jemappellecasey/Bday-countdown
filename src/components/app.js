@@ -4,7 +4,8 @@ export default class App extends Component {
   render() {
     return (
       <div className="grid">
-      <div className="meh"></div>
+        <h1 className="grid__title">Birthday Countdown</h1>
+
         <div className="grid__skew-light-one"></div>
         <div className="grid__skew-light-two"></div>
         <div className="grid__skew-light-three-box"></div>
