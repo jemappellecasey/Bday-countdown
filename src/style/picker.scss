@@ -1,15 +1,17 @@
 .picker {
-    grid-column: 6/9;
-    grid-row: 2/4;
+    grid-column: 5/10;
+    grid-row: 2/3;
     // background-color: greenyellow;
+    justify-self: center;
     padding-bottom: 50px;
+
 
     input {
         border: none;
         background-color: transparent;
         text-align: center;
         border-bottom: 2px solid #e3b924;
-        font-size: 90px;
+        font-size: 80px;
         font-family: 'Roboto Condensed';
         font-weight: 700;
         color: $grey-one;
