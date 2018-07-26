@@ -16,7 +16,7 @@ export default class App extends Component {
         <div className="grid__skew-dark"></div>
 
         <Picker />
-        { Button('Generate Countdown') }
+        { Button('Generate Countdown', () => console.log('button going')) }
         <Clock />
       </div>
     );
