@@ -12,7 +12,12 @@
     transform: rotate(-69deg) translate(-20px, -145px);
     justify-self: center;
 
-    font-family: 'Roboto Condensed';
+    font-family: $font-roboto;
+
+    &:focus {
+        border: none;
+        outline: none;
+    }
 
     i {
         padding: 15px;
